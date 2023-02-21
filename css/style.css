@@ -1,1 +1,48 @@
-/* Denna fil skall innehålla din CSS kod */
+#wrapper{
+    border: 1px solid black;
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-areas: 
+    "hd"
+    "main"
+    "ft";
+}
+
+header{
+    grid-area: hd;
+    background-color: aqua;
+}
+main{
+    grid-area: main;
+    background-color: burlywood;
+
+}
+footer{
+    grid-area: ft;
+    background-color: darkblue;
+}
+
+nav ul li {
+    list-style: none;
+    font-family: Copperplate;
+    font-size: 2rem;
+    
+    
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+header h1{
+    display: flex;
+    justify-content: center;
+    font-family: Copperplate;
+    font-size: 3rem;
+    margin-bottom: 3rem;
+    margin: 2rem;
+}
+footer{
+    background-color: bisque;
+}
