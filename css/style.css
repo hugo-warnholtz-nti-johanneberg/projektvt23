@@ -16,19 +16,46 @@
     
 }
 
+
+
+
 header{
     grid-area: hd;
-    background-color: aqua;
+
+
+    
     
 }
+
+
+
 main{
     grid-area: main;
-    background-color: burlywood;
+ 
+    
+
 
 }
+
+#div1{
+    background-image: url("img/funäs bilder/bakgrund.jpg");
+}
+
+main h1{
+    font-family: Copperplate;
+    font-size: 1.8rem;
+    
+    display: flex;
+    justify-content: center;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-top: 5rem;
+}
+
+
 footer{
     grid-area: ft;
-    background-color: darkblue;
+
 }
 
 nav ul li {
@@ -53,7 +80,7 @@ header h1{
   
 }
 footer{
-    background-color: bisque;
+   
 }
 
 @media screen and (max-width:600px) {
@@ -82,6 +109,8 @@ footer{
         transition: max-height 1.2s;
 
     }
+
+    
 
     
 
