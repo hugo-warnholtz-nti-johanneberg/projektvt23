@@ -12,6 +12,8 @@
     grid-template-areas: 
     "hd"
     "main"
+    "s1"
+    "s2"
     "ft";
     
 }
@@ -38,7 +40,7 @@ main{
 }
 
 #div1{
-    background-image: url("img/funäs bilder/bakgrund.jpg");
+    
 }
 
 main h1{
@@ -50,6 +52,25 @@ main h1{
     margin-left: 10rem;
     margin-right: 10rem;
     margin-top: 5rem;
+}
+
+#s1{
+    grid-area: s1;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: 7rem;
+    
+}
+
+#s2{
+    grid-area: s2;
+    font-family: Copperplate;
+    margin-left: 5rem;
+    margin-right: 60rem;
+    display: flex;
+    justify-content: space-between;
 }
 
 
@@ -93,7 +114,7 @@ footer{
     }
     header h1{
         font-size: 2rem;
-        margin: none;
+        
         
 
     }
