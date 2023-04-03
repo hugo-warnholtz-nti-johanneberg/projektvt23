@@ -5,25 +5,38 @@
     display: grid;
     grid-template-areas: 
     
+    
     "hd"
+    "s1"
+    "s2"
+    "s8"
     "main"
     "ft";
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    
 }
 
 #s1{
     font-family: Copperplate;
     grid-area: s1;
+    color: white;
 
 }
 
 #s2{
     font-family: Copperplate;
     grid-area: s2;
+    color: white;
 }
 h1{
     font-size: 2.5rem;
     display: flex;
     justify-content: center;
+
 }
 
 h2{
@@ -34,11 +47,32 @@ h2{
 
 }
 
-img{
+#s3{
+    grid-area: s3;
+    display: flex;
     
     
 }
 
+img{
+    margin-left: 2.2rem;
+    margin-right: 1rem;
+    display: flex;
+    justify-content: center;
+    
+
+    
+    
+    
+    
+}
+h3{
+
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+
+}
 #s1 p{
     font-size: 1.5rem;
     display: flex;
@@ -55,10 +89,74 @@ img{
     margin-right: 12rem;
 }
 
+#s4{
+    font-family: Copperplate;
+    grid-area: s4;
+    color: white;
+}
 
-body{
+#s4 h3{
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+#s4 p{
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+#s6{
+    font-family: Copperplate;
+    grid-area: s6;
+    color:white;
+}
+
+#s6 h4{
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+
+}
+
+#s6 p{
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    margin-left: 10rem;
+    margin-right: 10rem;
+
+}
+#s7{
+    grid-area: s7;
+    display: flex;
+    justify-content: center;
+}
+
+#s8{
+    display: flex;
+    justify-content: center;
+    grid-area: s8;
+}
+
+#forsta{
+   
     
 }
+#andra{
+    
+    
+}
+
+body{
+
+    background-image: url(../img/redigerade\ bilder/bakgrund4.jpg);
+    
+}
+
 
 
 
@@ -68,13 +166,13 @@ body{
 
 header{
     grid-area: hd;
-    color: black;
+    color: white;
    
     
 }
 main{
     grid-area: main;
-    color: black;
+    color: white;
     
 
 }
@@ -118,10 +216,23 @@ footer{
         
     }
     header h1{
-        font-size: 2rem;
-        margin: none;
+        font-size: 2.7rem;
+        margin-right: 8rem;
         
 
+    }
+
+    h2{
+        margin-right: 5rem;
+    }
+
+    #s1 p{
+        margin-left: 5rem;
+    }
+
+    body{
+        background-color: red;
+        background-image: url(../img/redigerade\ bilder/bakgrund3.jpg);
     }
 
     nav {
@@ -136,7 +247,9 @@ footer{
 
     }
 
-    
+    img{
+        display: none;
+    }
 
     #hamburger{
      
@@ -146,10 +259,11 @@ footer{
         top: 5rem;
         left: 0.5rem;
         
+        
     }
 
     #hamburger div {
-        border: 1.5px solid black;
+        border: 1.5px solid white;
         margin: 0.2rem;
     }
 

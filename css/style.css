@@ -1,21 +1,26 @@
-
+body{
+  
+   background-image: url(../img/redigerade\ bilder/bakgrund6.jpg);
+   
+}
 
 
 
 #wrapper{
 
 
-    
-    width: 100%;
+   width: 100%; 
+
     margin: auto;
     display: grid;
     grid-template-areas: 
-    "hd"
-    "main"
-    "s1"
-    "s2"
-    "ft";
-    background-image: url(../img/redigerade\ bilder/tobbeblur.jpg);
+    "hd hd hd"
+    "main main main"
+    "s1 s1 s1"
+    "s2 s2 s2"
+    "ft ft ft";
+    
+    
     
 }
 
@@ -44,8 +49,9 @@ main{
 
 }
 
-#div1{
-    
+h2{
+    font-family: Copperplate;
+    color: white;
 }
 
 main h1{
@@ -63,11 +69,10 @@ main h1{
 #s1{
     grid-area: s1;
     display: flex;
-    justify-content: space-between;
-    margin-left: 5rem;
-    margin-right: 5rem;
+    justify-content: space-evenly;
     margin-top: 7rem;
     filter: drop-shadow(0 0 0.95rem rgb(0, 0, 0));
+   
     
     
 
@@ -77,6 +82,11 @@ main h1{
 
 
     
+}
+
+a{
+    color: white;
+    text-decoration: none;
 }
 
 #s2{
@@ -92,6 +102,7 @@ main h1{
 #s2 p{
     margin-left: 7rem;
     margin-right: 12rem;
+    color: white;
 }
 
 footer{
@@ -99,10 +110,25 @@ footer{
 
 }
 
+
+#s3{
+    display: flex;
+    justify-content: center;
+    grid-area: s3;
+}
+
+#s4{
+    display: flex;
+    justify-content: flex-end;
+    grid-area: s4;
+}
+
+
 nav ul li {
     list-style: none;
     font-family: Copperplate;
     font-size: 2rem;
+
     
     
 }
@@ -110,6 +136,7 @@ nav ul li {
 nav ul{
     display: flex;
     justify-content: space-between;
+    
 
     
 }
@@ -126,9 +153,29 @@ footer{
    
 }
 
+
+
 @media screen and (max-width:600px) {
 
-    
+    body{
+        
+    }
+
+
+img{
+    display: none;
+}
+    #s1{
+        width:5px;
+    }
+
+    #s3{
+        width: 20px;
+    }
+
+    body{
+        background-image: url(../img/redigerade\ bilder/bakgrund5.jpg);
+    }
 
     header{
         position: relative;
@@ -136,9 +183,23 @@ footer{
     }
     header h1{
         font-size: 2rem;
+        width: 270px;
+        height: 100px;
+        color: white;
+        
+        
         
         
 
+    }
+
+    p{
+        display: none;
+    }
+
+    h2{
+        width: 280px;
+        margin-left: 2rem;
     }
 
     nav {
@@ -153,7 +214,6 @@ footer{
 
     }
 
-    
 
     
 
@@ -165,10 +225,11 @@ footer{
         top: 5rem;
         left: 0.5rem;
         
+        
     }
 
     #hamburger div {
-        border: 1.5px solid black;
+        border: 1.5px solid rgb(255, 255, 255);
         margin: 0.2rem;
     }
 

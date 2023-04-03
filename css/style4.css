@@ -1,0 +1,222 @@
+#wrapper{
+    
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-areas: 
+    
+    "hd"
+    "btn"
+    "main"
+    "ft";
+}
+
+h1{
+    font-family: Copperplate;
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+a:link{
+    text-decoration: none;
+    color: white;
+}
+
+a:visited{
+    text-decoration: none;
+    color: white;
+}
+
+h2{
+    font-family: Copperplate;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+h3{
+    font-family: Copperplate;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+p{
+    font-family: Copperplate;
+    font-size: 1.7rem;
+    display: flex;
+    justify-content: center;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    color: white;
+}
+
+
+
+
+.liftkort {
+    display: flex;
+    justify-content: center;
+    
+
+    
+    
+ 
+    
+  }
+
+  button{
+    display: flex;
+    justify-content: center;
+    grid-area: btn;
+    margin-left: 40rem;
+  }
+  
+  .read-more-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: 3px white;
+    border-radius: 0.8rem;
+    padding: 1.25rem 2rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: Copperplate;
+    display: flex;
+    justify-content: center;
+    
+
+  }
+  
+  .read-more-btn:hover {
+    background-color: #005cbf;
+    filter: drop-shadow(0 0 0.45rem rgba(80, 104, 255, 0.707));
+   
+  }
+
+
+    
+footer{
+    grid-area: ft;
+    background-color: darkblue;
+}
+
+nav ul li {
+    list-style: none;
+    font-family: Copperplate;
+    font-size: 2rem;
+    
+    
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+header h1{
+    display: flex;
+    justify-content: center;
+    font-family: Copperplate;
+    font-size: 3rem;
+    margin-bottom: 3rem;
+    margin: 2rem;
+}
+footer{
+    background-color: bisque;
+}
+
+body{
+    background-image: url(../img/redigerade\ bilder/bakgrund9.jpg);
+}
+
+@media screen and (max-width:600px) {
+
+    
+
+    header{
+        position: relative;
+        color: white;
+        style
+        
+    }
+    header h1{
+        font-size: 2rem;
+        margin: none;
+        width: 335px;
+        color: white;
+        
+
+    }
+
+    nav {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.5s;
+    }
+
+    nav.active{
+        max-height: 1000px;
+        transition: max-height 1.2s;
+
+    }
+
+    h1{
+        width: 380px;
+        font-size: 4rem;
+        color: white;
+    }
+
+    h2{
+        width: 380px;
+        font-size: 3rem;
+        color: white;
+    }
+
+    p{
+        width: 100px;
+        color: white;
+    }
+
+    button{
+        display: flex;
+        justify-content: center;
+    }
+
+    .read-more-btn{
+        display: none;
+        
+    }
+    #hamburger{
+     
+        height: 2rem;
+        width: 2rem;
+        position: absolute;
+        top: 5rem;
+        left: 0.5rem;
+        
+    }
+
+    body{
+        background-image: url(../img/redigerade\ bilder/bakgrund7.jpg);
+    }
+
+    #hamburger div {
+        border: 1.5px solid white;
+        margin: 0.2rem;
+    }
+
+    nav ul {
+        display: block;
+        
+
+    }
+
+    nav ul li{
+        font-size: 1.5rem;
+    }
+
+
+
+}
