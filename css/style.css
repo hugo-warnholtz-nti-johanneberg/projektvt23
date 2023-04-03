@@ -4,7 +4,16 @@ body{
    
 }
 
-
+footer{
+    font-family: Copperplate;
+    background-color: black;
+    margin-top: 20rem;
+    color: white;
+    padding: 3rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    font-size: 1.3rem;
+}
 
 #wrapper{
 
@@ -24,7 +33,11 @@ body{
     
 }
 
-
+h3{
+    font-size: 2.2rem;
+   
+}
+    
 
 
 header{

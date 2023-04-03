@@ -53,8 +53,21 @@ p{
     color: white;
 }
 
+h5{
+    font-family: Copperplate;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 2rem;
 
-
+}
+h6{
+    font-family: Copperplate;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 1rem;
+}
 
 .liftkort {
     display: flex;
@@ -100,7 +113,7 @@ p{
     
 footer{
     grid-area: ft;
-    background-color: darkblue;
+    
 }
 
 nav ul li {
@@ -124,11 +137,11 @@ header h1{
     margin: 2rem;
 }
 footer{
-    background-color: bisque;
+    
 }
 
 body{
-    background-image: url(../img/redigerade\ bilder/bakgrund9.jpg);
+    background-image: url(../img/redigerade\ bilder/bakgrund10.jpg);
 }
 
 @media screen and (max-width:600px) {
@@ -195,6 +208,7 @@ body{
         position: absolute;
         top: 5rem;
         left: 0.5rem;
+        color: white;
         
     }
 

@@ -180,7 +180,7 @@ main{
 
 footer{
     grid-area: ft;
-    background-color: darkblue;
+    
 }
 
 nav ul li {
@@ -203,9 +203,21 @@ header h1{
     margin-bottom: 3rem;
     margin: 2rem;
 }
-footer{
-    background-color: bisque;
+h5{
+    display: flex;
+    justify-content: center;
+    font-family: Copperplate;
+    font-size: 2rem;
+    color: white;
 }
+h6{
+    display: flex;
+    justify-content: center;
+    font-family: Copperplate;
+    font-size: 2rem;
+    color: white;
+    font-size: 1rem;}
+
 
 @media screen and (max-width:600px) {
 
@@ -231,7 +243,7 @@ footer{
     }
 
     body{
-        background-color: red;
+        
         background-image: url(../img/redigerade\ bilder/bakgrund3.jpg);
     }
 
@@ -258,6 +270,7 @@ footer{
         position: absolute;
         top: 5rem;
         left: 0.5rem;
+        color: white;
         
         
     }
