@@ -153,7 +153,7 @@ h3{
 
 body{
 
-    background-image: url(../img/redigerade\ bilder/bakgrund4.jpg);
+    background-image: url(../img/redigerade_bilder/bakgrund4.jpg);
     
 }
 
@@ -235,16 +235,44 @@ h6{
     }
 
     h2{
-        margin-right: 5rem;
+        margin-right: 9rem;
     }
+#s1{
+    width: 250px;
+    margin-left: 8rem;
+}
 
+
+#s4{
+    width: 250px;
+    margin-left: 4rem;
+}
+#s2{
+    width: 250px;
+    margin-left: 2rem;
+}
+
+#s6{
+    width: 250px;
+    margin-left: 5rem;
+}
     #s1 p{
+        margin-left: 4rem;
+    }
+    
+    h5{
+        width: 250px;
         margin-left: 5rem;
     }
+    h6{
+        width: 250px;
+        margin-left: 6rem;
+    }
+    
 
     body{
         
-        background-image: url(../img/redigerade\ bilder/bakgrund3.jpg);
+        background-image: url(../img/redigerade_bilder/bakgrund4.jpg);
     }
 
     nav {

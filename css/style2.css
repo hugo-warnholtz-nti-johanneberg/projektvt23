@@ -25,7 +25,7 @@
 
 
 body{
-    background-image: url(../img/redigerade\ bilder/bakgrund2.2.jpg);
+    background-image: url(../img/redigerade_bilder/bakgrund2.2.jpg);
 
     
   
@@ -179,6 +179,11 @@ h6{
         
     }
 
+    h3{
+        display: flex;
+        justify-content: center;
+    }
+
     #s2{
         display: flex;
         justify-content: center;
@@ -199,30 +204,40 @@ h6{
 
     #s5{
 
-        margin-left: 2.7rem;
+    
+
+    
         
+    }
+
+    html{
+        flex-direction: column;
     }
 
     #s6{
      display: flex;
      justify-content: center;
      margin-left: 2.7rem;
-    }
+         }
         
     
 
     #s7{
-        margin-left: 3rem;
+        margin-left: 6.7rem;
     }
 
 
     main{
         width: 20rem;
         display: flex;
-        justify-content: center;
+        align-items: center;
+        flex-direction: column;
         
     }
 
+    p{
+        width: 100px;
+    }
     
     
     #s1 h1{
@@ -242,9 +257,10 @@ h6{
 
     }
 
+    
+
     img{
-        width: 300px;
-        height: 200px;
+        display: none;
         
     }
 

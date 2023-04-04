@@ -84,7 +84,7 @@ h6{
     display: flex;
     justify-content: center;
     grid-area: btn;
-    margin-left: 40rem;
+    margin-left: 43vw;
   }
   
   .read-more-btn {
@@ -141,7 +141,7 @@ footer{
 }
 
 body{
-    background-image: url(../img/redigerade\ bilder/bakgrund10.jpg);
+    background-image: url(../img/redigerade_bilder/bakgrund10.jpg);
 }
 
 @media screen and (max-width:600px) {
@@ -213,7 +213,7 @@ body{
     }
 
     body{
-        background-image: url(../img/redigerade\ bilder/bakgrund7.jpg);
+        background-image: url(../img/redigerade_bilder/bakgrund7.jpg);
     }
 
     #hamburger div {
